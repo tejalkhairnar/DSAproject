@@ -1,4 +1,5 @@
 # Linux Tree Command
+
 This project is to implement the linux tree command in C language. The tree is a tiny cross-platform command-line program . The tree command displays the contents of a particular directory in a tree like format.
 Color codes are also used to display files and folders.
 This project can be run on ubuntu by giving the following command
@@ -6,6 +7,7 @@ This project can be run on ubuntu by giving the following command
 ./tree -flag
 
 The flags that I have implemented are :
+
 •-a : All files are printed. By default tree does not print hidden files(those begin with dot ("."). In no event does the tree print the file system constructs '.' (current directory) and '..' (previous directory).
 
 •-d : List directories only.
@@ -25,6 +27,7 @@ The flags that I have implemented are :
 •-D : Prints the date of last modification time for file..
 
 •-u : Prints username, or UID.
+
 •-g : Prints group name, or GID.
 
 •-S : Turns on ASCII line graphics.
@@ -36,6 +39,7 @@ The flags that I have implemented are :
 •-J : Prints JSON representation of the tree.
 
 •-P pattern : Will list only those files that will match the pattern.
+
 •-I pattern : Does not list files that match the pattern.
 
 •-–help : Outputs a verbose usage listing.
