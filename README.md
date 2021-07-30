@@ -3,6 +3,7 @@ This project is to implement the linux tree command in C language. The tree is a
 Color codes are also used to display files and folders.
 This project can be run on ubuntu by giving the following command
 ./tree -flag
+
 The flags that I have implemented are :
 •-a : All files are printed. By default tree does not print hidden files(those begin with dot ("."). In no event does the tree print the file system constructs '.' (current directory) and '..' (previous directory).
 •-d : List directories only.
